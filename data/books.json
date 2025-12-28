@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "code": "B001",
+    "title": "Cien años de soledad",
+    "author": "Gabriel García Márquez",
+    "description": "Una novela emblemática que narra la historia de la familia Buendía a lo largo de varias generaciones en el pueblo ficticio de Macondo.",
+    "price": 18.90,
+    "imageUrl": "https://picsum.photos/seed/book-1/180/240",
+    "format": "FISICO"
+  },
+  {
+    "id": 2,
+    "code":"B002",
+    "title": "1984",
+    "author": "George Orwell",
+    "description": "Una distopía clásica que explora los peligros del totalitarismo y la vigilancia gubernamental en una sociedad opresiva.",
+    "price": 14.50,
+    "imageUrl": "https://picsum.photos/seed/book-2/180/240",
+    "format": "DIGITAL"
+  },
+  {
+    "id": 3,
+    "code":"B003",
+    "title": "El señor de los anillos: La comunidad del anillo",
+    "description": "La primera parte de la épica trilogía de fantasía que sigue las aventuras de Frodo Bolsón y sus compañeros en su misión para destruir el Anillo Único.",
+    "author": "J. R. R. Tolkien",
+    "price": 22.00,
+    "imageUrl": "https://picsum.photos/seed/book-3/180/240",
+    "format": "FISICO"
+  },
+  {
+    "id": 4,
+    "code":"B004",
+    "title": "Harry Potter y la piedra filosofal",
+    "description": "El primer libro de la famosa serie de Harry Potter, donde un joven mago descubre su identidad y comienza su educación en la escuela de magia Hogwarts.",
+    "author": "J. K. Rowling",
+    "price": 16.75,
+    "imageUrl": "https://picsum.photos/seed/book-4/180/240",
+    "format": "DIGITAL"
+  },
+  {
+    "id": 5,
+    "code":"B005",
+    "title": "Crónica de una muerte anunciada",
+    "description": "Una novela corta que relata los eventos que llevan al asesinato de Santiago Nasar, explorando temas de honor, destino y la inevitabilidad de la muerte.",
+    "author": "Gabriel García Márquez",
+    "price": 12.99,
+    "imageUrl": "https://picsum.photos/seed/book-5/180/240",
+    "format": "DIGITAL"
+  },
+  {
+    "id": 6,
+    "code":"B006",
+    "title": "Don Quijote de la Mancha",
+    "description": "La obra maestra de la literatura española que sigue las aventuras del ingenioso hidalgo Don Quijote y su fiel escudero Sancho Panza en su lucha contra la injusticia.",
+    "author": "Miguel de Cervantes",
+    "price": 24.50,
+    "imageUrl": "https://picsum.photos/seed/book-6/180/240",
+    "format": "FISICO"
+  },
+  {
+    "id": 7,
+    "code":"B007",
+    "title": "El principito",
+    "description": "Un cuento filosófico que narra las aventuras de un joven príncipe que viaja de planeta en planeta, explorando temas de amor, amistad y la naturaleza humana.",
+    "author": "Antoine de Saint-Exupéry",
+    "price": 10.95,
+    "imageUrl": "https://picsum.photos/seed/book-7/180/240",
+    "format": "DIGITAL"
+  },
+  {
+    "id": 8,
+    "code":"B008",
+    "title": "Fahrenheit 451",
+    "description": "Una novela distópica que imagina un futuro donde los libros están prohibidos y los 'bomberos' queman cualquier libro que encuentran.",
+    "author": "Ray Bradbury",
+    "price": 13.40,
+    "imageUrl": "https://picsum.photos/seed/book-8/180/240",
+    "format": "DIGITAL"
+  },
+  {
+    "id": 9,
+    "code":"B009",
+    "title": "La sombra del viento",
+    "description": "Una novela de misterio y romance ambientada en la Barcelona de la posguerra, donde un joven descubre un libro olvidado que cambiará su vida para siempre.",
+    "author": "Carlos Ruiz Zafón",
+    "price": 19.80,
+    "imageUrl": "https://picsum.photos/seed/book-9/180/240",
+    "format": "FISICO"
+  },
+  {
+    "id": 10,
+    "code":"B010",
+    "title": "El nombre de la rosa",
+    "description": "Una novela histórica y de misterio que sigue a un monje franciscano y su novicio mientras investigan una serie de asesinatos en una abadía medieval.",
+    "author": "Umberto Eco",
+    "price": 17.60,
+    "imageUrl": "https://picsum.photos/seed/book-10/180/240",
+    "format": "FISICO"
+  }
+]

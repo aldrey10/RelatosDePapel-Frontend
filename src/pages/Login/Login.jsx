@@ -1,11 +1,20 @@
-import Card from "../../components/Card/Card";
+import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function Login ({  }) {
 
-    return (
-        <Card title={"Inicio de sesión"}>
+    const navigate = useNavigate();
 
-        </Card>
+    useEffect(() => {
+        setTimeout(
+            () => {
+                navigate("/catalog");
+            }, 5000
+        )
+    }, []);
+
+    return (
+        <div>hola que tal</div>
     )
     
 }

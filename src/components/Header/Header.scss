@@ -1,0 +1,35 @@
+.app-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 64px;
+
+  background: #ffffff;
+  border-bottom: 1px solid #ddd;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 1.5rem;
+  z-index: 1000;
+
+  &__left {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+
+  &__right {
+    display: flex;
+    align-items: center;
+  }
+
+  &__cart-button {
+    font-size: 1.2rem;
+
+    i {
+      vertical-align: middle;
+    }
+  }
+}

@@ -1,0 +1,70 @@
+.book-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 400px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+
+  /* TYPE */
+  &__type {
+    font-size: 0.9rem;
+    color: #888;
+    margin-bottom: 0.7rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* IMAGE */
+  &__image {
+    height: 300px;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      max-height: 100%;
+      max-width: 100%;
+      object-fit: contain;
+      display: block;
+    }
+  }
+
+  /* CONTENT */
+  &__content {
+    margin-bottom: 1rem;
+  }
+
+  /* INFO */
+  &__info {
+    height: 100px;
+    margin-bottom: 0.5rem;
+  }
+
+  &__title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+
+  &__author {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+  }
+
+  /* FOOTER */
+  &__footer {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  &__price {
+    margin-right: 20px;
+    font-weight: 600;
+  }
+}
