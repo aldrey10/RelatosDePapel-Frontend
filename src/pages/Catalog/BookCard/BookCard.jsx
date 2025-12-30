@@ -28,7 +28,7 @@ export default function BookCard({ book, onAddToCart, onNavigateToDetails }) {
           >
             Agregar al carrito
           </Button>
-          <Button variant="outline-dark">Ver detalles</Button>
+          <Button variant="outline-dark" onClick={() => onNavigateToDetails?.(book)}>Ver detalles</Button>
         </div>
       </div>
     </article>

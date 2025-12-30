@@ -1,23 +1,21 @@
 .book-card {
-  border: 1px solid #ddd;
+  border: 1px solid #000000;
   border-radius: 8px;
   width: 400px;
   padding: 1rem;
   display: flex;
   flex-direction: column;
+  background-color: #eaf8ff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 
 
-  /* TYPE */
   &__type {
     font-size: 0.9rem;
-    color: #888;
     margin-bottom: 0.7rem;
     display: flex;
     justify-content: center;
   }
 
-  /* IMAGE */
   &__image {
     height: 300px;
     margin-bottom: 1rem;
@@ -33,12 +31,10 @@
     }
   }
 
-  /* CONTENT */
   &__content {
     margin-bottom: 1rem;
   }
 
-  /* INFO */
   &__info {
     height: 100px;
     margin-bottom: 0.5rem;
@@ -56,7 +52,6 @@
     margin-bottom: 0.5rem;
   }
 
-  /* FOOTER */
   &__footer {
     display: flex;
     align-items: center;

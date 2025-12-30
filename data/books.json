@@ -7,7 +7,8 @@
     "description": "Una novela emblemática que narra la historia de la familia Buendía a lo largo de varias generaciones en el pueblo ficticio de Macondo.",
     "price": 18.90,
     "imageUrl": "https://picsum.photos/seed/book-1/180/240",
-    "format": "FISICO"
+    "format": "FISICO",
+    "stock": 12
   },
   {
     "id": 2,
@@ -17,7 +18,8 @@
     "description": "Una distopía clásica que explora los peligros del totalitarismo y la vigilancia gubernamental en una sociedad opresiva.",
     "price": 14.50,
     "imageUrl": "https://picsum.photos/seed/book-2/180/240",
-    "format": "DIGITAL"
+    "format": "DIGITAL",
+    "stock": 25
   },
   {
     "id": 3,
@@ -27,7 +29,8 @@
     "author": "J. R. R. Tolkien",
     "price": 22.00,
     "imageUrl": "https://picsum.photos/seed/book-3/180/240",
-    "format": "FISICO"
+    "format": "FISICO",
+    "stock": 8
   },
   {
     "id": 4,
@@ -37,7 +40,8 @@
     "author": "J. K. Rowling",
     "price": 16.75,
     "imageUrl": "https://picsum.photos/seed/book-4/180/240",
-    "format": "DIGITAL"
+    "format": "DIGITAL",
+    "stock": 30
   },
   {
     "id": 5,
@@ -47,7 +51,8 @@
     "author": "Gabriel García Márquez",
     "price": 12.99,
     "imageUrl": "https://picsum.photos/seed/book-5/180/240",
-    "format": "DIGITAL"
+    "format": "DIGITAL",
+    "stock": 15
   },
   {
     "id": 6,
@@ -57,7 +62,8 @@
     "author": "Miguel de Cervantes",
     "price": 24.50,
     "imageUrl": "https://picsum.photos/seed/book-6/180/240",
-    "format": "FISICO"
+    "format": "FISICO",
+    "stock": 5
   },
   {
     "id": 7,
@@ -67,7 +73,8 @@
     "author": "Antoine de Saint-Exupéry",
     "price": 10.95,
     "imageUrl": "https://picsum.photos/seed/book-7/180/240",
-    "format": "DIGITAL"
+    "format": "DIGITAL",
+    "stock": 20
   },
   {
     "id": 8,
@@ -77,7 +84,8 @@
     "author": "Ray Bradbury",
     "price": 13.40,
     "imageUrl": "https://picsum.photos/seed/book-8/180/240",
-    "format": "DIGITAL"
+    "format": "DIGITAL",
+    "stock": 18
   },
   {
     "id": 9,
@@ -87,7 +95,8 @@
     "author": "Carlos Ruiz Zafón",
     "price": 19.80,
     "imageUrl": "https://picsum.photos/seed/book-9/180/240",
-    "format": "FISICO"
+    "format": "FISICO",
+    "stock": 10
   },
   {
     "id": 10,
@@ -97,6 +106,7 @@
     "author": "Umberto Eco",
     "price": 17.60,
     "imageUrl": "https://picsum.photos/seed/book-10/180/240",
-    "format": "FISICO"
+    "format": "FISICO",
+    "stock": 7
   }
 ]

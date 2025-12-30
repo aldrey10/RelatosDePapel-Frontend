@@ -1,0 +1,155 @@
+.checkout {
+  padding: 1.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1.25rem;
+  }
+
+  &__title {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  &__actions {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+  }
+
+  &__empty {
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+    background: #fff;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  &__summary {
+    margin-top: 1.25rem;
+    border-top: 1px solid #eee;
+    padding-top: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  &__totals {
+    display: flex;
+    gap: 0.5rem;
+    align-items: baseline;
+  }
+
+  &__checkout {
+    min-width: 220px;
+  }
+}
+
+.checkout-item {
+  display: grid;
+  grid-template-columns: 70px 1fr auto auto auto;
+  gap: 1rem;
+  align-items: center;
+
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding: 0.75rem;
+  background-color: #eaf8ff;
+
+  &__img {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 8px;
+    border: 1px solid #f0f0f0;
+
+    img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  &__title {
+    margin: 0;
+    font-weight: 700;
+  }
+
+  &__author {
+    margin: 0;
+    color: #666;
+  }
+
+  &__meta {
+    margin: 0;
+    font-size: 0.85rem;
+    color: #777;
+  }
+
+  &__quantity {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  &__quantity-value {
+    min-width: 24px;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  &__price {
+    font-weight: 700;
+    min-width: 90px;
+    text-align: right;
+  }
+
+  &__remove {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width: 720px) {
+  .checkout-item {
+    grid-template-columns: 70px 1fr;
+    grid-template-rows: auto auto auto;
+    align-items: start;
+
+    &__quantity,
+    &__price,
+    &__remove {
+      grid-column: 2;
+    }
+
+    &__price {
+      text-align: left;
+      min-width: auto;
+    }
+  }
+}
