@@ -13,7 +13,7 @@ export default function Login ({  }) {
     }, 5000);
 
     return () => clearTimeout(timer);
-  }, [navigate]);
+  }, []);
 
   const handleLogin = () => {
     navigate("/catalog");
